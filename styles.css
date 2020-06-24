@@ -2,7 +2,12 @@ html, body{
     margin: 0;
     height: 100%;
 }
-
+.flex{
+height: 100%;
+    display: flex;
+    margin: 2px;
+    padding: 20px;
+}
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
     2. الطول والعرض
@@ -14,26 +19,55 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 120px;
+    border-radius: 20px;
+    margin:4px;
+    padding: 10px;
+    margin-left: 1px;
+margin-right: 1px;
     /* pxالعرض هنا يجب ان يكون 120 */
 }
 
 .header{
+    background-color: blue;
+    height: 80px;
+    border-radius: 20px;
+    margin:4px;
+    padding: 10px;
+margin-left: 1px;
+margin-right: 1px;
     /* pxالطول هنا يجب ان يكون 80 */
 }
 
 .main{
-
+    background-color: skyblue;
+    height: 87%;
+    border-radius: 20px;
+    margin:4px;
+    padding: 10px;
+    margin-left: 1px;
+margin-right: 1px;
 }
+
 
 a{
     color: darkgray;
+    text-decoration: none;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
+a:hover{
+    background-color: snow;
+}
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
-
+p{
+    text-align: center;
+}
 
 
 h1{
